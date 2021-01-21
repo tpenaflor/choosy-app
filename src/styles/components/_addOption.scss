@@ -1,0 +1,24 @@
+.add-option {
+    display: flex;
+    flex-direction: column;
+    padding: $mSize;
+}
+.add-option__input {
+    background: $lightGreen;
+    color :white;
+    border : none;
+    border-bottom: .3rem solid darken($lightGreen, 10%);
+    flex-grow: 1;
+    margin: 0 0 $sSize 0;
+}
+
+@media (min-width: $desktopBreakPoint) {
+    .add-option {
+        padding: $mSize;
+        flex-direction: row;
+    }
+
+    .add-option__input {
+        margin: 0 $sSize 0 0;
+    }
+} 
