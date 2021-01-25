@@ -5,7 +5,7 @@
   "author": "Tyrone",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "serve": "live-server public/",
     "dev-server": "webpack serve --mode=development",
     "start": "node server/server.js",
