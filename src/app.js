@@ -1,6 +1,6 @@
 import React from 'react' 
 import ReactDOM from 'react-dom'
-import App from './components/choosy.js'
+import App from './components/Choosy.js'
 
 import 'normalize.css/normalize.css'
 import './styles/styles.scss'
