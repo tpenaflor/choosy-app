@@ -7,7 +7,9 @@
   "scripts": {
     "build": "webpack",
     "serve": "live-server public/",
-    "dev-server": "webpack serve --mode=development"
+    "dev-server": "webpack serve --mode=development",
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
@@ -17,6 +19,7 @@
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "css-loader": "^5.0.1",
+    "express": "^4.17.1",
     "live-server": "^1.2.1",
     "node-sass": "^5.0.0",
     "normalize.css": "^8.0.1",
